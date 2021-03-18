@@ -18,7 +18,7 @@ body{
 .header{
     width: 100%;
     height: 20%;
-    background-color: rgba(136, 255, 255, 0.856);
+    background-color: rgba(132, 236, 255, 0.700);
     float: left;
     background-blend-mode: overlay;
 }
@@ -45,7 +45,7 @@ ul {
     width: 100%;
     height: 5%;
     float: left;
-    background-color:rgb(130, 30, 245)
+    background-color:rgb(155, 68, 255)
 }
 
 .nav li a {
@@ -70,6 +70,7 @@ ul {
 	color: rgb(0, 0, 0);
 	font-family: 'Roboto Mono', monospace;
     text-align: left;
+    margin-top: 90px
 }
 
 .header  h4{
@@ -92,7 +93,7 @@ ul {
 }
 
 .socials a{
-    color:white;
+    color:black;
     text-decoration: none !important;
 }
 
@@ -103,8 +104,8 @@ ul {
 
 .contentl{
     overflow: hidden;
-    width: 20%;
-    height: 80%;
+    width: 0%;
+    height: 90%;
     background-color:rgba(125, 255, 190, 0.700);
     float: left;
     text-align: center;
@@ -113,22 +114,91 @@ ul {
 }
 
  .contentm{
-    width: 60%;
-	height: 80%;
-    background-color:rgb(164, 241, 255);
-    background-image:url(images/e39.png);
+    width: 100%;
+	height: 90%;
+    background-color:rgb(132, 236, 255, 0.700);
     background-size: initial;
 	background-repeat: no-repeat;
     float: left;
     text-align:center;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
- } 
+ }
+#Matt{
+    float:left;
+    width:250px;
+    height:250px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#Mattp{
+    float:left;
+    font-size:larger;
+    margin-top: 50px;
+    margin-left:20px;
+}
+
+#MattID{
+    float:left;
+    font-size: medium;
+    margin-top: 100px;
+    margin-left:320px;
+    position:absolute;
+}
+
+#Abbas{
+    float:right;
+    width:250px;
+    height:300px;
+    margin-top:250px;
+    margin-right:50px
+}
+
+#Abbasp{
+    float:right;
+    font-size:larger;
+    margin-top:250px;
+    margin-right:20px;
+}
+
+#AbbasID{
+    float:right;
+    font-size:medium;
+    margin-top:300px;
+    left:69%;
+    position:absolute;
+}
+
+#Damian{
+    float:left;
+    width:250px;
+    height:250px;
+    right:79%;
+    margin-top: 550px;
+    position:absolute
+}
+
+#Damianp{
+    float:left;
+    font-size:larger;
+    margin-top:550px;
+    position:absolute;
+    margin-left:320px;
+}
+
+#DamianID{
+    float:left;
+    font-size: medium;
+    margin-top: 600px;
+    margin-left:320px;
+    position:absolute;
+}
 
  .contentr{
     overflow: hidden;
-    width: 20%;
-	height: 80%;
+    width: 0%;
+	height: 90%;
     background-color:rgba(125, 255, 190, 0.700);
     float: left;
     font-family: 'Roboto Mono', monospace;
@@ -139,33 +209,75 @@ ul {
 
  .footer{
     width: 100%;
-	height: 30%;
-    background-color:rgba(208, 167, 255, 0.700);
+	height: 25%;
+    background-color:rgba(164, 241, 255, 0.700);
     float: left;
     font-family: 'Roboto Mono', monospace;
     text-align:center;
-    font-size:50px;
+    font-size:15px;
  } 
 
-.banner{
-    width: 100%;
-    height: 10%;
-    background-color:rgba(130, 30, 245, 0.452);
-    font-family: 'Roboto Mono', monospace;
+ #newsletter{
     float: left;
+    width:100px;
+    height:100px;
+    left:90%;
+    margin-top: 75px;
+    position:absolute;
+ }
+
+ #keyboard{
+    float:left;
+    width:325px;
+    height:200px;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
-.banner p  {
-font-size: 20px;
-color:lightgray;
-font-family: 'Roboto Mono', monospace;
-float:center;
-text-align:center;
+#rights{
+    float:left;
+    margin-top: 12%;
+    margin-left: 2%;
 }
 
-.gmap_canvas {
-position: relative;
-padding-top: 10%;
+ .emailN{
+    display: block;
+    float:right;
+    right:15%;
+    position:absolute;
+    margin-top:75px;
+ }
+
+ .submitN{
+    display: block;
+    float:right;
+    right:10.80%;
+    position:absolute;
+    margin-top:75px;
+ }
+
+ .vacanciesN{
+    display: block;
+    float:right;
+    right:15%;
+    position:absolute;
+    margin-top:110px;
+ }
+
+ #VText{
+     font-size:small;
+ }
+
+ .postedN{
+    display: block;
+    float:right;
+    right: 15%;
+    position:absolute;
+    margin-top:140px;
+ }
+
+ #PText{
+    font-size:small;
 }
 
 #logo {

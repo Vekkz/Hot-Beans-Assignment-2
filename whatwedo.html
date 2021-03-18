@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>Home</title>
+			<title>What We Do</title>
 			<link rel="stylesheet" type="text/css" href="whatwedo.css">
 			<link rel="preconnect" href="https://fonts.gstatic.com">
 			<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -9,8 +9,11 @@
 		</head>
 		<body>
 			<div class="container">
+<!--Header-->
 				<div class="header">
 					<a href="index.html" ><img id="logo" src=images/logo.PNG></a>
+
+	<!--Social Media Links-->
 					<div class= "socials">
 					<h3>
 						<ul>
@@ -21,10 +24,13 @@
 							<li id= "soc_hover"><a href= "https://uk.linkedin.com" target="_blank"><img width= 30px height= 30px src= images/link.png> LinkedIn</a></li>
 						</ul>
 					</div>
-					<br><br><br><br>
+	<!--End of Social Media Links-->
+
 						<h1>Hot Beans</h1>
 						<h4>Web Development Co.</h4>
+<!--End of Header-->
 					
+<!--Navigation Bar-->
 				</div>
 					<ul>
 						<div class= "nav">
@@ -34,25 +40,42 @@
 							<li><a href="apply.html">Apply</a></li>
 						</div>
 					</ul>
+<!--End of Navigation Bar-->
 
+<!--Main Content Boxes-->
 				<div class="contentl">
-					<p>Our Office</p>
-					<div class="gmap_canvas">
-						<iframe height= 250 src="https://maps.google.com/maps?q=bournemouth%20and%20poole%20college&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-					</div>
+					<p>Our Values</p>
 						
 					
 				</div>
 				<div class="contentm">
 					<p>placeholder</p>
 				</div>
-				<div class="contentr">
-					<p>placeholder</p>
-					<iframe src="https://www.youtube.com/embed/q8yol4Fg3dA"></iframe>
-				</div>
 				<div class="footer">
-					<p>T h i s - i s - t h e - b o t t o m.</p>
-				</div>
+					<img id="newsletter" src= images/newsletter.png>
+					<img id="keyboard" src= images/keyboard.jpg>
+					<p id= "rights">Hot Beans Web. All rights Reserved ©</p>
+<!--End of Main Content Boxes-->
+
+<!--NewsLetter form-->
+					<form>
+						<div class= emailN>
+							<label for="newsEmail">Sign up to our NewsLetter:</label>
+							<input type="text" name="newsEmail">
+						</div>
+						<div class= submitN>
+							<input type="submit" value="Sign Up!" name="submit">
+						</div>
+						<div class=vacanciesN>
+							<label for id="VText">Hear about new Vacancies:</label>
+							<input type="checkbox" name="vacancies">
+						</div>
+						<div class= postedN>
+							<label for id= "PText">Stay posted on our projects:</label>
+							<input type="checkbox" name="posted">
+						</div>
+					</form>
+<!--End of NewsLetter form-->
 			</div>
 		</body>
 	</html>
