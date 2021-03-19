@@ -125,6 +125,12 @@ ul {
     font-size: 30px;
  } 
 
+ #homeparagraph{
+     font-size:large;
+     float:left;
+     margin-left:50px;
+ }
+
  #bannerimg{
     padding-top: 20px;
     width: 95%;
@@ -141,8 +147,12 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     text-align:center;
-
  } 
+
+ #NoteToAdam{
+     text-align:center;
+     font-size:10px;
+ }
 
  .footer{
     width: 100%;
