@@ -120,10 +120,72 @@ ul {
     background-size: initial;
 	background-repeat: no-repeat;
     float: left;
-    text-align:center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
+    font-size: 15px;
  } 
+
+ #header{
+     text-align:center;
+     font-size:30px;
+ }
+ 
+ .form{
+     margin-left:10%;
+     margin-top:50px;
+ }
+
+ .first{
+    margin:20px;
+}
+
+.last{
+    margin:20px;
+}
+
+.DOB{
+    margin:20px;
+}
+
+.tele{
+    margin:20px;
+}
+
+.email{
+    margin:20px;
+}
+
+#eduP{
+    margin-left:20px;
+}
+
+.edu{
+    margin:20px;
+}
+
+.perms{
+    margin-left:20px;
+}
+
+.updates{
+    margin-left:20px;
+}
+
+.privacy{
+    margin-left:20px;
+}
+
+.CV{
+    margin:20px;
+}
+
+.apply{
+    margin:20px;
+}
+
+.policy{
+    float:left;
+    margin-left:20px;
+}
 
  .contentr{
     overflow: hidden;
